@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-test-exercise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumberjs --require lib",    
+    "test-debug": "cross-env DEBUG=true cucumberjs --require lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "cross-env": "^1.0.8",
+    "cucumber": "^1.0.0",
+    "lodash": "^4.13.1",    
+    "request-promise": "^3.0.0",
+    "selenium-webdriver": "^2.53.2",
+    "chai": "^3.5.0"
+    
+  }
+}
