@@ -2,6 +2,7 @@
 
 2) npm install for installing all the dependancies
 
-3) run "npm test features" from project root
+3) FOR API tests: run "npm test features/APITest.feature" from project root
 
-Note: The UI testing bits are not working properly, most probably Webdriver and chrome issues. I have written the spec and definitions but need tweaks to make them working. Apologies but please check the approach used.
+4) FOR UI tests: run "npm test features/UITest.feature" from project root
+
